@@ -2,8 +2,8 @@
 
 exports[`component renders 1`] = `
 <main
-  className="app"
+  className="App"
 >
-  hello world
+  Hello World
 </main>
 `;
