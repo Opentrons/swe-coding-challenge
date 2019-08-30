@@ -1,7 +1,7 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux'
 
 export const robotReducer = (state, action) => {
-	// NOTE: this reducer is hardcoded to always return this list of robots
+  // NOTE: this reducer is hardcoded to always return this list of robots
   return [
     {
       name: 'opentrons-sunset',
@@ -41,5 +41,5 @@ export const robotReducer = (state, action) => {
 
 export default combineReducers({
   robots: robotReducer,
-	selectedRobot: null, // TODO: combine your selectedRobot reducer here
+  selectedRobot: null, // TODO: combine your selectedRobot reducer here
 })
